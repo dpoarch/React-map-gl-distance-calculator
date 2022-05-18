@@ -1,0 +1,29 @@
+div {
+	cursor: crosshair;
+}
+
+.fullScreenButton {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 5px;
+	z-index: 5;
+	pointer-events: none;
+}
+
+.distance-container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 11px;
+	line-height: 18px;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
